@@ -1,5 +1,6 @@
 body{
     background-color: rgb(32, 65, 11);
+    background-image: url('aaa.jpg');
 }
 
 .grid-layout {
@@ -14,14 +15,14 @@ body{
 
 header {
     grid-area: header;
-    background-color: rgb(133, 229, 133);
+    background-color: rgb(133, 229, 133, 0.8);
     border: 5px solid;
     border-radius: 10px;
     padding: 10px;
 }
 
 main {
-    background-color: rgb(104, 180, 104);
+    background-color: rgb(104, 180, 104, 0.8);
     grid-area: main;
     border: 5px solid;
     border-radius: 10px;
@@ -32,7 +33,7 @@ main {
 
 aside {
     grid-area: aside;
-    background-color: rgb(104, 180, 104);
+    background-color: rgb(104, 180, 104, 0.8);
     border: 5px solid;
     border-radius: 10px;
     height: 700px;
@@ -41,7 +42,7 @@ aside {
 
 footer{
     grid-area: footer;
-    background-color: rgb(133, 229, 133);
+    background-color: rgb(133, 229, 133, 0.8);
     border: 5px solid;
     border-radius: 10px;
     padding: 10px;
